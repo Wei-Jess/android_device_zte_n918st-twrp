@@ -1,0 +1,9 @@
+/system		ext4	/dev/block/bootdevice/by-name/system         flags=display="System"
+/data		ext4	/dev/block/bootdevice/by-name/userdata 	     flags=display="Data"
+/cache		ext4	/dev/block/bootdevice/by-name/cache          flags=display="Cache"
+/boot		emmc	/dev/block/bootdevice/by-name/boot	     flags=display="Boot"	
+/recovery	emmc	/dev/block/bootdevice/by-name/recovery       flags=display="Recovery"
+
+/sdcard   vfat      /dev/block/mmcblk0p29 		flags=display="sdcard";storage;wipeingui;removable
+/external_sd   vfat      /dev/block/mmcblk1p1 		flags=display="external_sd";storage;wipeingui;removable
+
