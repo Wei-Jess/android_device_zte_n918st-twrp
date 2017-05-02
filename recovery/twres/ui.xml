@@ -239,7 +239,7 @@
 
 			<object type="text" color="%text_color%">
 				<font resource="font" />
-				<placement x="330" y="76" />
+				<placement x="335" y="76" />
 				<conditions>
 					<condition var1="tw_no_battery_percent" var2="0" />
 					<condition var1="tw_battery" op="&gt;" var2="0" />
