@@ -17,7 +17,7 @@
 		<resource name="font" type="font" filename="DroidSansFallback.ttf" size="30" fallback="Roboto-Condensed-30" />
 		<resource name="mediumfont" type="font" filename="DroidSansFallback.ttf" size="30" fallback="Roboto-Condensed-30" />
 		<resource name="filelist" type="font" filename="DroidSansFallback.ttf" size="30" fallback="Roboto-Condensed-30" />
-		<resource name="fixed" type="font" filename="DroidSansMono.ttf" size="30" />
+		<resource name="fixed" type="font" filename="DroidSansMono.ttf" size="20" />
 		<resource name="top_bar" type="image" filename="top-bar.jpg" />
 		<resource name="main_button" type="image" filename="menu-button" />
 		<resource name="file_icon" type="image" filename="file" />
@@ -239,7 +239,7 @@
 
 			<object type="text" color="%text_color%">
 				<font resource="font" />
-				<placement x="335" y="76" />
+				<placement x="340" y="76" />
 				<conditions>
 					<condition var1="tw_no_battery_percent" var2="0" />
 					<condition var1="tw_battery" op="&gt;" var2="0" />
