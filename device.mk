@@ -15,6 +15,5 @@
 #
 
 PRODUCT_COPY_FILES += \
-	device/zte/n918st/recovery/twrp.fstab:recovery/root/etc/twrp.fstab \
 	device/zte/n918st/recovery/root/sbin/vm_bms:recovery/root/sbin/vm_bms \
         device/zte/n918st/recovery/root/init.recovery.qcom.rc:recovery/root/init.recovery.qcom.rc

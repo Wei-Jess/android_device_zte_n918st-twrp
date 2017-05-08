@@ -83,6 +83,7 @@ PROTOBUF_SUPPORTED := true
 
 # Recovery
 DEVICE_RESOLUTION := 720x1280
+TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery/twrp.fstab
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
 TARGET_CUSTOM_KERNEL_HEADERS := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
 
